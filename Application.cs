@@ -38,7 +38,7 @@ namespace Day5
                         BankApplication.Run();
                         DisplayPrompt();
                         if (Console.ReadLine() == "1")
-                            goto mainmenu;
+                            // goto mainmenu;
                         else
                             running = false;
                         break;
